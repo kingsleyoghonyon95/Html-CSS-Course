@@ -10,6 +10,11 @@
   width: 100%;
 }
 
+.video-preview {
+  position: relative;
+}
+
+
 .video-info-grid {
   display: grid;
   grid-template-columns: 50px 1fr;
@@ -47,4 +52,22 @@
 
 .video-author {
   margin-bottom: 4px;
+}
+
+.video-time {
+  font-family: roboto, arial;
+  font-size: 12px;
+  font-weight: 500px;
+  padding-left: 2px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  right: 8px;
+  bottom: 95px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-bottom: 4px;
+  padding-right: 4px;
+  border-radius: 2px;
 }
