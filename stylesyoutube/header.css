@@ -75,6 +75,28 @@
   background-color: rgb(240, 240, 240);
   margin-left: -1px;
   margin-right: 10px;
+  position: relative;
+}
+
+.search-button .tooltip {
+  position: absolute;
+  color: white;
+  font-family: roboto, arial;
+  background-color: grey;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+.search-button:hover .tooltip {
+  opacity: 1;
 }
 
 .voice-search-icon {
@@ -104,6 +126,25 @@
 
 .notification-icon {
   height: 24px;
+}
+
+.notification-icon-container {
+  position: relative;
+}
+
+.counts {
+  position: absolute;
+  top: -2px;
+  right: -4px;
+  background-color: red;
+  color: white;
+  font-family: roboto, arial;
+  font-size: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  border-radius: 10px;
 }
 
 .user-picture {

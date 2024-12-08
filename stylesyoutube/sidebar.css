@@ -4,6 +4,29 @@
   bottom: 0px;
   top: 55px;
   width: 72px;
-  background-color: green;
+  /* background-color: green; */
+}
 
+.sidebar-link {
+  height: 74px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+
+
+.sidebar-link:hover {
+  background-color: lightgray;
+}
+
+.sidebar-link div {
+  font-family: roboto, arial;
+  font-size: 10px;
+}
+
+.sidebar-link img {
+  height: 24px;
 }
